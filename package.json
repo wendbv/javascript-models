@@ -1,0 +1,22 @@
+{
+  "name": "typescript-models",
+  "version": "1.0.0",
+  "description": "Simple Typescript models",
+  "main": "bin/models.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "pretest": "tsc -p spec",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/wendbv/typescript-models"
+  },
+  "author": "Martijn Arts",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "ts-node": "^0.5.5",
+    "typescript": "^1.7.5"
+  }
+}

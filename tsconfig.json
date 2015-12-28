@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "outDir": "bin/",
+        "declaration": true,
+        "sourceMap": true
+    },
+    "files": [
+        "src/models.ts"
+    ]
+}
